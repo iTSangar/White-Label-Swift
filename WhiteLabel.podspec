@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'WhiteLabel'
-  s.version  = '0.1.2'
+  s.version  = '0.1.3'
   s.license  = 'MIT'
   s.summary  = 'WhiteLabel is a Swift interface for the White Label API.'
   s.homepage = 'https://github.com/NoonPacific/WhiteLabelSwift'
