@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5042AE11C466207005A016A /* Pods_WhiteLabel_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5042AE01C466207005A016A /* Pods_WhiteLabel_iOS_Example.framework */; };
+		A537A6041C33B88A00870B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537A6031C33B88A00870B6E /* AppDelegate.swift */; };
+		A537A6061C33B88A00870B6E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537A6051C33B88A00870B6E /* CollectionViewController.swift */; };
+		A537A6081C33B88A00870B6E /* MixtapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537A6071C33B88A00870B6E /* MixtapeViewController.swift */; };
+		A537A60B1C33B88A00870B6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537A6091C33B88A00870B6E /* Main.storyboard */; };
+		A537A60D1C33B88A00870B6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A537A60C1C33B88A00870B6E /* Assets.xcassets */; };
+		A537A6101C33B88A00870B6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A537A60E1C33B88A00870B6E /* LaunchScreen.storyboard */; };
+		A5A4D0FA1C33C5D0001BFCF0 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4D0F61C33C5D0001BFCF0 /* Collection.swift */; };
+		A5A4D0FB1C33C5D0001BFCF0 /* Mixtape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4D0F71C33C5D0001BFCF0 /* Mixtape.swift */; };
+		A5A4D0FC1C33C5D0001BFCF0 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4D0F81C33C5D0001BFCF0 /* Track.swift */; };
+		A5A4D0FD1C33C5D0001BFCF0 /* WhiteLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A4D0F91C33C5D0001BFCF0 /* WhiteLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7090DA21AF91304B311591 /* Pods_WhiteLabel_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteLabel_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2AA6D9DBF2D75702DCE0E8 /* Pods-WhiteLabel iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabel iOS Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabel iOS Example/Pods-WhiteLabel iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		A5042AE01C466207005A016A /* Pods_WhiteLabel_iOS_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_WhiteLabel_iOS_Example.framework; path = "Pods/../build/Debug-iphoneos/Pods_WhiteLabel_iOS_Example.framework"; sourceTree = "<group>"; };
+		A537A6001C33B88A00870B6E /* WhiteLabel iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WhiteLabel iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A537A6031C33B88A00870B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A537A6051C33B88A00870B6E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		A537A6071C33B88A00870B6E /* MixtapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixtapeViewController.swift; sourceTree = "<group>"; };
+		A537A60A1C33B88A00870B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A537A60C1C33B88A00870B6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A537A60F1C33B88A00870B6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A537A6111C33B88A00870B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5A4D0F61C33C5D0001BFCF0 /* Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		A5A4D0F71C33C5D0001BFCF0 /* Mixtape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mixtape.swift; sourceTree = "<group>"; };
+		A5A4D0F81C33C5D0001BFCF0 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		A5A4D0F91C33C5D0001BFCF0 /* WhiteLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteLabel.swift; sourceTree = "<group>"; };
+		CEF2AD45F31EE72B6AB3B0DD /* Pods-WhiteLabel iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteLabel iOS Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteLabel iOS Example/Pods-WhiteLabel iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEE4ADADC69F02EB63F4DC21 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A537A5FD1C33B88A00870B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5042AE11C466207005A016A /* Pods_WhiteLabel_iOS_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F8FEA48B375AEBEF44FE77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEF2AD45F31EE72B6AB3B0DD /* Pods-WhiteLabel iOS Example.debug.xcconfig */,
+				8F2AA6D9DBF2D75702DCE0E8 /* Pods-WhiteLabel iOS Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A5042ADE1C4651AB005A016A /* WhiteLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A5A4D0F91C33C5D0001BFCF0 /* WhiteLabel.swift */,
+				A5A4D0F61C33C5D0001BFCF0 /* Collection.swift */,
+				A5A4D0F71C33C5D0001BFCF0 /* Mixtape.swift */,
+				A5A4D0F81C33C5D0001BFCF0 /* Track.swift */,
+			);
+			name = WhiteLabel;
+			sourceTree = "<group>";
+		};
+		A5042ADF1C4651E2005A016A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A537A6091C33B88A00870B6E /* Main.storyboard */,
+				A537A60C1C33B88A00870B6E /* Assets.xcassets */,
+				A537A60E1C33B88A00870B6E /* LaunchScreen.storyboard */,
+				A537A6111C33B88A00870B6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			path = "WhiteLabel iOS Example";
+			sourceTree = "<group>";
+		};
+		A537A5F71C33B88900870B6E = {
+			isa = PBXGroup;
+			children = (
+				A537A6021C33B88A00870B6E /* Classes */,
+				A5042ADF1C4651E2005A016A /* Supporting Files */,
+				A5A4D0F51C33C5D0001BFCF0 /* Vendor */,
+				A537A6011C33B88A00870B6E /* Products */,
+				ECA7431F1DBDAC6137444B19 /* Frameworks */,
+				01F8FEA48B375AEBEF44FE77 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A537A6011C33B88A00870B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A537A6001C33B88A00870B6E /* WhiteLabel iOS Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A537A6021C33B88A00870B6E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A537A6031C33B88A00870B6E /* AppDelegate.swift */,
+				A537A6051C33B88A00870B6E /* CollectionViewController.swift */,
+				A537A6071C33B88A00870B6E /* MixtapeViewController.swift */,
+			);
+			name = Classes;
+			path = "WhiteLabel iOS Example";
+			sourceTree = "<group>";
+		};
+		A5A4D0F51C33C5D0001BFCF0 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A5042ADE1C4651AB005A016A /* WhiteLabel */,
+			);
+			name = Vendor;
+			path = ../Source;
+			sourceTree = "<group>";
+		};
+		ECA7431F1DBDAC6137444B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5042AE01C466207005A016A /* Pods_WhiteLabel_iOS_Example.framework */,
+				FEE4ADADC69F02EB63F4DC21 /* Pods.framework */,
+				4A7090DA21AF91304B311591 /* Pods_WhiteLabel_iOS_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A537A5FF1C33B88A00870B6E /* WhiteLabel iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A537A61F1C33B88A00870B6E /* Build configuration list for PBXNativeTarget "WhiteLabel iOS Example" */;
+			buildPhases = (
+				6D03119CBB082842D4AFD778 /* Check Pods Manifest.lock */,
+				A537A5FC1C33B88A00870B6E /* Sources */,
+				A537A5FD1C33B88A00870B6E /* Frameworks */,
+				A537A5FE1C33B88A00870B6E /* Resources */,
+				D784037BB0061C55B93C8AAD /* Embed Pods Frameworks */,
+				754E2978CC5B790B01EFE1B9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WhiteLabel iOS Example";
+			productName = "WhiteLabel iOS Example";
+			productReference = A537A6001C33B88A00870B6E /* WhiteLabel iOS Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A537A5F81C33B88900870B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Noon Pacific";
+				TargetAttributes = {
+					A537A5FF1C33B88A00870B6E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A537A5FB1C33B88900870B6E /* Build configuration list for PBXProject "WhiteLabel iOS Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A537A5F71C33B88900870B6E;
+			productRefGroup = A537A6011C33B88A00870B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A537A5FF1C33B88A00870B6E /* WhiteLabel iOS Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A537A5FE1C33B88A00870B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A537A6101C33B88A00870B6E /* LaunchScreen.storyboard in Resources */,
+				A537A60D1C33B88A00870B6E /* Assets.xcassets in Resources */,
+				A537A60B1C33B88A00870B6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D03119CBB082842D4AFD778 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		754E2978CC5B790B01EFE1B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhiteLabel iOS Example/Pods-WhiteLabel iOS Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D784037BB0061C55B93C8AAD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhiteLabel iOS Example/Pods-WhiteLabel iOS Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A537A5FC1C33B88A00870B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A537A6081C33B88A00870B6E /* MixtapeViewController.swift in Sources */,
+				A5A4D0FD1C33C5D0001BFCF0 /* WhiteLabel.swift in Sources */,
+				A537A6061C33B88A00870B6E /* CollectionViewController.swift in Sources */,
+				A537A6041C33B88A00870B6E /* AppDelegate.swift in Sources */,
+				A5A4D0FA1C33C5D0001BFCF0 /* Collection.swift in Sources */,
+				A5A4D0FB1C33C5D0001BFCF0 /* Mixtape.swift in Sources */,
+				A5A4D0FC1C33C5D0001BFCF0 /* Track.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A537A6091C33B88A00870B6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A537A60A1C33B88A00870B6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A537A60E1C33B88A00870B6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A537A60F1C33B88A00870B6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A537A61D1C33B88A00870B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A537A61E1C33B88A00870B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A537A6201C33B88A00870B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF2AD45F31EE72B6AB3B0DD /* Pods-WhiteLabel iOS Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "WhiteLabel iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noonpacific.WhiteLabel-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A537A6211C33B88A00870B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2AA6D9DBF2D75702DCE0E8 /* Pods-WhiteLabel iOS Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "WhiteLabel iOS Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noonpacific.WhiteLabel-iOS-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A537A5FB1C33B88900870B6E /* Build configuration list for PBXProject "WhiteLabel iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A537A61D1C33B88A00870B6E /* Debug */,
+				A537A61E1C33B88A00870B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A537A61F1C33B88A00870B6E /* Build configuration list for PBXNativeTarget "WhiteLabel iOS Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A537A6201C33B88A00870B6E /* Debug */,
+				A537A6211C33B88A00870B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A537A5F81C33B88900870B6E /* Project object */;
+}

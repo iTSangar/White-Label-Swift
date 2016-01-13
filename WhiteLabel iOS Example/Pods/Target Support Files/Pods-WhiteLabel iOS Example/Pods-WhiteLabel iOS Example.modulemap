@@ -1,0 +1,6 @@
+framework module Pods_WhiteLabel_iOS_Example {
+  umbrella header "Pods-WhiteLabel iOS Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
