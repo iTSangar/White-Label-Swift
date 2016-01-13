@@ -10,19 +10,19 @@ import SwiftyJSON
 
 public class Mixtape: Equatable {
     
-    var coverLarge : String!
-    var name : String!
-    var id : Int!
-    var coverArtistName : String!
-    var coverArtistURL : String!
-    var sponsorDescription : String!
-    var sponsorURL : String!
-    var releaseDate : String!
-    var playlistNumber : Int!
-    var trackCount : Int!
-    var tracks = [Track]()
+    public var coverLarge : String!
+    public var name : String!
+    public var id : Int!
+    public var coverArtistName : String!
+    public var coverArtistURL : String!
+    public var sponsorDescription : String!
+    public var sponsorURL : String!
+    public var releaseDate : String!
+    public var playlistNumber : Int!
+    public var trackCount : Int!
+    public var tracks = [Track]()
     
-    init(fromJson json: JSON!){
+    public init(fromJson json: JSON!){
         if json == nil { return }
         
         coverLarge = json["cover_large"].stringValue

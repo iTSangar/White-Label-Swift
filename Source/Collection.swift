@@ -8,9 +8,9 @@
 
 public class Collection {
     
-    var name : String!
-    var id : Int!
-    var mixtapes: [Mixtape]? = nil
+    public var name : String!
+    public var id : Int!
+    public var mixtapes: [Mixtape]? = nil
     
 }
 

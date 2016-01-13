@@ -10,17 +10,17 @@ import SwiftyJSON
 
 public class Track: Equatable {
     
-    var artistName : String!
-    var title : String!
-    var id : Int!
-    var soundCloudID : Int!
-    var soundCloudStreamURL : String!
-    var soundCloudPermalink : String!
-    var sourceNotFound : Bool!
-    var trackID : Int!
-    var number : Int!
+    public var artistName : String!
+    public var title : String!
+    public var id : Int!
+    public var soundCloudID : Int!
+    public var soundCloudStreamURL : String!
+    public var soundCloudPermalink : String!
+    public var sourceNotFound : Bool!
+    public var trackID : Int!
+    public var number : Int!
     
-    init(fromJson json: JSON!, withSoundCloudToken soundCloudToken: String!){
+    public init(fromJson json: JSON!, withSoundCloudToken soundCloudToken: String!){
         if json == nil {return }
         
         artistName = json["artist_description"].stringValue

@@ -12,10 +12,10 @@ import SwiftyJSON
 
 public class WhiteLabel {
     
-    static let baseURL: String = "https://api.colormyx.com/v1/"
-    static var appSlug: String!
-    static var soundCloudToken: String!
-    static var collection = Collection()
+    private static let baseURL: String = "https://api.colormyx.com/v1/"
+    public static var appSlug: String!
+    public static var soundCloudToken: String!
+    public static var collection = Collection()
     
     public class func getMixtapes(completionHandler: ([Mixtape]?, NSError?) -> Void) {
         let urlString = self.baseURL + appSlug + "/playlists/"
