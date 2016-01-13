@@ -24,9 +24,9 @@ class MixtapeViewController: UITableViewController {
     
     func configureView() {
         if let mixtape = self.mixtape {
-            WhiteLabel.getTracksforMixtape(mixtape, completionHandler: { tracks, error in
+            WhiteLabel.getTracksforMixtape(mixtape) { tracks, error in
                 self.tableView.reloadData()
-            })
+            }
         }
     }
 
