@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
+  s.dependency = 'Alamofire', '~> 3.0'
+  s.dependency = 'SwiftyJSON', '~> 2.0'
   s.frameworks = 'Foundation'
 
   s.source_files = 'Source/*.swift'
