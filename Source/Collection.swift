@@ -6,7 +6,7 @@
 //  Copyright © 2016 Noon Pacific LLC. All rights reserved.
 //
 
-class Collection {
+public class Collection {
     
     var name : String!
     var id : Int!
@@ -14,6 +14,6 @@ class Collection {
     
 }
 
-func ==(lhs: Collection, rhs: Collection) -> Bool {
+public func ==(lhs: Collection, rhs: Collection) -> Bool {
     return lhs.id == rhs.id
 }

@@ -8,7 +8,7 @@
 
 import SwiftyJSON
 
-class Mixtape: Equatable {
+public class Mixtape: Equatable {
     
     var coverLarge : String!
     var name : String!
@@ -38,6 +38,6 @@ class Mixtape: Equatable {
     }
 }
 
-func ==(lhs: Mixtape, rhs: Mixtape) -> Bool {
+public func ==(lhs: Mixtape, rhs: Mixtape) -> Bool {
     return lhs.id == rhs.id
 }

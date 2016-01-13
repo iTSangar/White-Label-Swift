@@ -8,7 +8,7 @@
 
 import SwiftyJSON
 
-class Track: Equatable {
+public class Track: Equatable {
     
     var artistName : String!
     var title : String!
@@ -35,6 +35,6 @@ class Track: Equatable {
     }
 }
 
-func ==(lhs: Track, rhs: Track) -> Bool {
+public func ==(lhs: Track, rhs: Track) -> Bool {
     return lhs.id == rhs.id
 }

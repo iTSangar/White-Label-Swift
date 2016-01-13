@@ -10,15 +10,15 @@ import Foundation
 import Alamofire
 import SwiftyJSON
 
-class WhiteLabel {
+public class WhiteLabel {
     
     static let baseURL: String = "https://api.colormyx.com/v1/"
     static var appSlug: String!
     static var soundCloudToken: String!
     static var collection = Collection()
     
-    class func getMixtapes(completionHandler: ([Mixtape]?, NSError?) -> Void) {
-        let urlString = baseURL + appSlug + "/playlists/"
+    public class func getMixtapes(completionHandler: ([Mixtape]?, NSError?) -> Void) {
+        let urlString = self.baseURL + appSlug + "/playlists/"
         self.debugPrint("Begin request for \(urlString).")
         
         Alamofire.request(.GET, urlString).validate().responseJSON { response in
@@ -49,7 +49,7 @@ class WhiteLabel {
         }
     }
     
-    class func getTracksforMixtape(mixtape: Mixtape, completionHandler: ([Track]?, NSError?) -> Void) {
+    public class func getTracksforMixtape(mixtape: Mixtape, completionHandler: ([Track]?, NSError?) -> Void) {
         let mixtapeId = String(mixtape.id)
         let urlString = baseURL + appSlug + "/playlists/" + mixtapeId + "/tracks/?detail=true"
         self.debugPrint("Begin request for \(urlString).")
@@ -82,7 +82,7 @@ class WhiteLabel {
         }
     }
     
-    class func postListenEventForMixtape(mixtape: Mixtape, track: Track, completionHandler: ((NSError?) -> Void)?) {
+    public class func postListenEventForMixtape(mixtape: Mixtape, track: Track, completionHandler: ((NSError?) -> Void)?) {
         let urlString = baseURL + "events/listen/"
         let parameters = [
             "playlist": String(mixtape.id),
@@ -105,7 +105,7 @@ class WhiteLabel {
         }
     }
     
-    class private func createMixtapesFromJSON(json: JSON) -> [Mixtape]? {
+    private class func createMixtapesFromJSON(json: JSON) -> [Mixtape]? {
         if json == nil || json.count == 0 {
             return nil
         }
@@ -123,7 +123,7 @@ class WhiteLabel {
         return mixtapes
     }
     
-    class private func createTracksFromJSON(json: JSON, forMixtape mixtape: Mixtape) -> [Track]? {
+    private class func createTracksFromJSON(json: JSON, forMixtape mixtape: Mixtape) -> [Track]? {
         if json == nil || json.count == 0 {
             return nil
         }
@@ -141,7 +141,7 @@ class WhiteLabel {
         return tracks
     }
     
-    class private func debugPrint(string: String) {
+    private class func debugPrint(string: String) {
         #if DEBUG
             print(string)
         #endif
