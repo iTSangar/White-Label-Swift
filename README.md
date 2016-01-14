@@ -4,11 +4,9 @@ WhiteLabel is an interface for the [White Label API](http://whitelabel.noonpacif
 
 ## Installation through CocoaPods
 
-The recommended method of installation is through [CocoaPods](http://cocoapods.org). Note that both the [Alamofire](https://github.com/Alamofire/Alamofire) and [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) libraries are required dependencies for WhiteLabel. Add the following lines to your Podfile, then run `pod install`.
+The recommended method of installation is through [CocoaPods](http://cocoapods.org). Note that both the [Alamofire](https://github.com/Alamofire/Alamofire) and [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) libraries are included as dependencies for WhiteLabel. Add the following line to your Podfile, then run `pod install`.
 
 ```ruby
-pod 'Alamofire', '~> 3.0'
-pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 pod 'WhiteLabel', :git => 'https://github.com/NoonPacific/WhiteLabelSwift.git'
 ```
 
